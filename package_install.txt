@@ -1,0 +1,13 @@
+conda create -n pcp python=3.6
+conda activate pcp
+pip install cde
+pip install scikit-learn==0.21.3
+pip install scikit-garden
+pip install torch==1.8.0+cu111 torchvision==0.9.0+cu111 torchaudio==0.8.0 -f https://download.pytorch.org/whl/torch_stable.html
+pip install shapely
+pip install pandas
+pip install tqdm
+pip install matplotlib
+pip install sympy
+pip install seaborn
+
