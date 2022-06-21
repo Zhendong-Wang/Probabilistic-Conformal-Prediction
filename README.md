@@ -38,7 +38,7 @@ In our paper, following [CQR repo](https://github.com/yromano/cqr) and [CHR repo
 
 You can download the datasets we used in our paper at their respective websites and get more information about these datasets there. For simple use and reproduction, we provide our downloaded datasets in `data` folder. 
 
-### Run Expriements
+### Run Experiments
 
 The running command could be as simple as:
 ```.bash
