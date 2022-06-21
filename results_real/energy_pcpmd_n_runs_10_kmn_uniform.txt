@@ -1,3 +1,0 @@
-Method,Coverage,Conditional coverage,Area,Area cover,seed,Nominal,n_train,n_cal,n_test
-PCP_uniform,0.8400,0.8000,12.6958,12.6958,0.0000,0.9000,568.0000,100.0000,100.0000
-PCP_uniform,,,,,,,,,

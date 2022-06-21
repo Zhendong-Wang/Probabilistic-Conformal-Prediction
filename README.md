@@ -1,4 +1,4 @@
-## Probabilistic Conformal Prediction &mdash; Official PyTorch implementation
+## Probabilistic Conformal Prediction &mdash; Official Python implementation
 
 ![Illustration](./docs/pcp.png)
 
@@ -52,10 +52,10 @@ Now, the code is run only on `cpu` since the hidden models are all simple and sm
 
 To run multi-dimensional tasks, 
 ```.bash
-python3 main_md.py --dataset energy --n_runs 10 --K 1000 --method pcp --caltype uniform 
+python main_md.py --dataset energy --n_runs 10 --K 1000 --method pcp --caltype uniform 
 ```
 
-Currently, `main.py` will include all baselines and our methods for running. If you just simply want the results of our methods, such as PCP or HD-PCP, comment out the other methods and the corresponding hidden model training in `main.py` file. 
+Currently, `main.py` will include all baselines and our methods for running. If you just simply want the results of our methods, such as PCP or HD-PCP, comment out the other methods and the corresponding backbone model training lines in `main.py` file. 
 
 ## Citation
 
