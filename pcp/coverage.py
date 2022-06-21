@@ -326,6 +326,7 @@ def wsc_unbiased_md(X, y, pred, qt, delta=0.1, M=1000, test_size=0.75, random_st
         return coverage
 
     if mdtype == 'pcp':
+        X, y, pred = np.array(X), np.array(y), np.array(pred)
         X_train, X_test, y_train, y_test, pred_train, pred_test = train_test_split(X, y, pred, test_size=test_size,
                                                                          random_state=random_state)
     else:

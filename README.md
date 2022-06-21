@@ -50,7 +50,12 @@ Now, the code is run only on `cpu` since the hidden models are all simple and sm
 * `--K` the sample size of PCP.
 * ` --fr` the filtering ratio of PCP. We usually recommend 0.2. 
 
-To run multi-dimensional tasks, simply change to `main_md.py` file. Currently, `main.py` will include all baselines and our methods for running. If you just simply want the results of our methods, such as PCP or HD-PCP, comment out the other methods and the corresponding hidden model training in `main.py` file. 
+To run multi-dimensional tasks, 
+```.bash
+python3 main_md.py --dataset energy --n_runs 10 --K 1000 --method pcp --caltype uniform 
+```
+
+Currently, `main.py` will include all baselines and our methods for running. If you just simply want the results of our methods, such as PCP or HD-PCP, comment out the other methods and the corresponding hidden model training in `main.py` file. 
 
 ## Citation
 

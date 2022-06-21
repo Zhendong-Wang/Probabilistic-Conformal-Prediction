@@ -11,3 +11,8 @@ pip install matplotlib
 pip install sympy
 pip install seaborn
 
+
+pip install folium 
+pip install geopy 
+pip install geojson 
+pip install xlrd==1.2.0

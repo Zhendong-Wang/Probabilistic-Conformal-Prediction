@@ -119,7 +119,7 @@ def dumb_area_counting(points_origin, qt, grid_size = 100, caltype = 'uniform', 
         areacover = np.any(np.array(if_in), 0).mean() * area
     return areacover
 
-def evaluate_predictions_pcp_md(pred, qt, Y, X=None, caltype = 'uniform', density = None, cov = None, grid_size = 100):
+def evaluate_predictions_pcp_md(pred, qt, Y, X=None, caltype = 'uniform', density = None, grid_size = 200):
     # Extract lower and upper prediction bands
     # evaluations
     coverages = []
@@ -170,7 +170,7 @@ def evaluate_predictions_pcp_md(pred, qt, Y, X=None, caltype = 'uniform', densit
         wsc_coverage = None
     else:
         # Estimated conditional coverage (worse-case slab)
-        wsc_coverage = conditional_coverage.wsc_unbiased_md(X, Y, pred, qt, M=100, mdtype = 'pcp', caltype = caltype, cov = cov)
+        wsc_coverage = conditional_coverage.wsc_unbiased_md(X, Y, pred, qt, M=100, mdtype = 'pcp', caltype = caltype)
 
     #wsc_coverage = 1
     length = np.mean(lengths)
