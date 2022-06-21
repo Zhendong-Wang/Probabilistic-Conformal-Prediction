@@ -55,7 +55,7 @@ To run multi-dimensional tasks, simply change to `main_md.py` file. Currently, `
 ## Citation
 
 ```
-@InProceedings{wang2022diffusiongan,
+@InProceedings{wang2022pcp,
   author    = {Wang, Zhendong and Gao, Ruijiang and Yin, Mingzhang and Zhou, Mingyuan and Blei, David M.},
   title     = {Probabilistic Conformal Prediction Using Conditional Random Samples},
   journal   = {arXiv.org},
