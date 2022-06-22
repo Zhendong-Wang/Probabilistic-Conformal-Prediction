@@ -1,4 +1,4 @@
-## Probabilistic Conformal Prediction &mdash; Official Python implementation
+## Implementation for Probabilistic Conformal Prediction
 
 ![Illustration](./docs/pcp.png)
 
