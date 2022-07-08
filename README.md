@@ -60,13 +60,12 @@ Currently, `main.py` will include all baselines and our methods for running. If 
 ## Citation
 
 ```
-@InProceedings{wang2022pcp,
-  author    = {Wang, Zhendong and Gao, Ruijiang and Yin, Mingzhang and Zhou, Mingyuan and Blei, David M.},
+@article{wang2022pcp,
   title     = {Probabilistic Conformal Prediction Using Conditional Random Samples},
-  journal   = {arXiv.org},
-  volume    = {abs/2206.06584},
+  author    = {Wang, Zhendong and Gao, Ruijiang and Yin, Mingzhang and Zhou, Mingyuan and Blei, David M},
+  journal   = {arXiv preprint arXiv:2206.06584},
   year      = {2022},
-  url       = {https://arxiv.org/abs/2206.06584},
+  url       = {https://arxiv.org/abs/2206.06584}
 }
 ```
 
